@@ -1,0 +1,38 @@
+.layout{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgba(196, 192, 192, 0.788);
+}
+
+.cabecalho h1 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.cabecalho button{
+    border-radius: 5px;
+    border: none;
+    background-color: crimson;
+    color: white;
+    box-shadow: 1px 2px 0px blanchedalmond;
+    padding: 5px 8px;
+    width: auto;
+    height: 30px;
+}
+.cabecalho button:active{
+    background-color: rgb(241, 24, 68);
+    box-shadow: none;
+}
+
+.conteudo{
+    padding: 25px;
+    height: 100%;
+}
+

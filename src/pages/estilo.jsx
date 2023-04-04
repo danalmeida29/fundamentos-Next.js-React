@@ -1,11 +1,13 @@
 import styles from '../styles/Estilo.module.css'
-import Link from 'next/link'
+import Layout from '../components/Layout'
 
 export default function Estilo(){
     return (
-        <div className={styles.roxo}>
-            <h1>Estilo usando CSS Módulos</h1>
-            <Link href="/exemplo">Exemplo</Link>
-        </div>
+        <Layout titulo="Exemplo de CSS modularizado">
+            <div className={styles.crismon}>
+                <h1>Estilo usando CSS Módulos</h1>
+            </div>
+        </Layout>
+
     )
 }
