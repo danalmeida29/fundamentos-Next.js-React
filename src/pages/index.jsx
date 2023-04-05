@@ -17,6 +17,8 @@ export default function Inicio() {
       <Navegador destino="/navegacao" name="Navegação #01"/>
       <Navegador destino="cliente/123" name="Navegação #02"/>
       <Navegador destino="/estado" name="Componente com Estado"/>
+      <Navegador destino="/integracao1" name="Integração #01"/>
+      <Navegador destino="/estatico" name="Conteudo Estatico"/>
     </div>
   )
 }
